@@ -1,0 +1,29 @@
+{
+  "name": "foodwebapp",
+  "version": "1.0.0",
+  "description": "food web application with node js , mongodb express socket io and react js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server.js",
+    "serve":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumit489/foodwebapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumit489/foodwebapp/issues"
+  },
+  "homepage": "https://github.com/Sumit489/foodwebapp#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
